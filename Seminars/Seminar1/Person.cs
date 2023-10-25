@@ -73,7 +73,7 @@ namespace Seminar1
             {
                 personInfo += $" {relationship}";
             }
-            Console.WriteLine($"{prefix} {personInfo}");
+            Console.WriteLine($" {prefix} {personInfo}");
 
             foreach (var child in Children)
             {
